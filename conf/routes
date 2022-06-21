@@ -1,0 +1,11 @@
+# Create
+POST /beer controllers.BeerController.addNewBeer
+
+# Read
+GET /beer controllers.BeerController.getAllBeers
+GET /beer/:itemId controllers.BeerController.getBeerById(itemId: Long)
+
+# Update
+
+# Delete
+DELETE /beer/:itemId controllers.BeerController.deleteBeerById(itemId: Long)
